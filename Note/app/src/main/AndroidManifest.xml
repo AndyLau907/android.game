@@ -22,6 +22,7 @@
 
         <activity android:name=".Game1.Activity.Game1HomeActivity"/>
         <activity android:name=".Game1.Activity.Game1OverActivity"/>
+        <activity android:name=".Game2.Activity.Game2Activity"/>
     </application>
 
 </manifest>
