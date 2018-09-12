@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_bg"
+    android:transitionName="game1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/colorTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/score_tv"
+            android:background="@color/colorTrans"
+            android:layout_width="wrap_content"
+            android:textColor="#555555"
+            android:text="分数:0"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center|left"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/range_tv"
+            android:background="@color/colorTrans"
+            android:textColor="#555555"
+            android:text="难度:1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center|right"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <com.andy.note.Game1.View.Game1ViewGroup
+        android:id="@+id/gameviewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
